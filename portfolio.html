@@ -2,9 +2,12 @@
 <html>
     <head>
         <title>Portfolio</title>
-    <img src="header.png" id="headerpic">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <img src="4.png" id="headerpic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     </head>
 
 <body>
@@ -13,96 +16,301 @@
     <a href="#About">About Me</a>
     <a href="#Projects">My Work</a>
     <a href="#Contact">Contact Me</a>
-    
   </div>
 
-
-
 <div id="home" class="intro">
-<h1 align="center">About Me</h1>
-</div> 
+
+<section id="about">
+ 
+  <div class="container">
+    <h2 align="center">Who am I?</h2>
+    <div class="row info">
+      <div class="col-sm-8">
+        <p align="center">I'm a recent graduate of Makers Academy - one of Europe's leading coding bootcamps.</p>
+        <span class="signature">Emily Spencer</span>
+      </div>
+    </div>
+    
+    <div id="skill-set">
+      <h3>In my toolkit</h3>
+      <br>
+    <ul class="vertical-list">
+    <h3>Languages and frameworks</h3>
+    <li>
+    <ul class="vertical-list skills" id="web-development-skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Ruby</li>
+      <li>Python</li>
+      <li>Rails</li>
+      <li>jQuery</li>
+      <li>React</li>
+   </ul>
+  </li>
+<h3>Testing</h3>
+<li>
+  <ul class="vertical-list skills" id="automation-skills">
+    <li>RSpec</li>
+    <li>Jasmine</li>
+    <li>Capybara</li>
+  </ul>
+</li>
+<h3>Processes</h3>
+<li>
+  <ul class="vertical-list skills" id="misc-skills">
+    <li>Pair Programming</li>
+    <li>Retrospectives and standups</li>
+    <li>XP values</li>
+  </ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
 <hr>
   <div id="Projects" class="projects">My Work
     <a id='profile-link' href="https://github.com/emilyjspencer" target="_blank" class="contact-details">GitHub</a>
 </div>
 <h2 align="center">My Work</h2>
 <br>
-<h2>Pristine Pics</h2>
-<div><a href="https://github.com/emilyjspencer/Pristine-Pics" target="_blank" class="product-tile" id="projects">View on GitHub</a>
-<img src="./images/pristinepics/pristinepics_deletephoto.png" width="600" height: "600">
-<img src="./images/pristinepics/pristinepics_title.png" width="600" height: "600">
-<img src="./images/pristinepics/pristinepics_uploadphoto.png" width="600" height: "600">
+<div class="row">
+  <div class="col-xs-6">
+    <h2>Pristine Pics</h2>
+  
+        <h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Firebase</li>
+        </ul>
+        
+      </div>
+    </div>
+
+    <div class="example">
+      <img src="./images/pristinepics/pristinepics_title.png" width="600" height: "600">
+      <div class="content">
+        <div class="text">Designed using JavaScript and the FrontEnd framework React</div>
+      </div>
+    </div>
+
+  <div class="example">
+  <img src="./images/pristinepics/pristinepics_title.png" width="600" height: "600">
+  <div class="content">
+    <div class="text">Designed using JavaScript and the FrontEnd framework React</div>
+  </div>
+</div>
+  <div class="example">
+  <img src="./images/pristinepics/pristinepics_uploadphoto.png" width="600" height: "600">
+  <div class="content">
+    <div class="text">Designed using JavaScript and the FrontEnd framework React</div>
+  </div>
+</div>
+</div>
 </div>
 <br>
+<div class="col-xs-6">
 <h2>Thermostat</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>jQuery</li>
+          <li>Jasmine</li>
+          <li>CSS</li>
+        </ul>
 <div><a href="https://github.com/emilyjspencer/Thermostat4" target="_blank" class="product-tile" id="projects">View on GitHub</a>
 <img src="./images/thermostat/bangkok.png" width="600" height: "600">
 </div>
+</div>
 <br>
+<div class="col-xs-6">
 <h2>Rock, Paper, Scissors Game</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>Ruby</li>
+          <li>Sinatra</li>
+          <li>RSpec</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
 <div class="product-tile" target="_blank" id="projects">
     <a href="https://github.com/emilyjspencer/rps-challenge"class="project-tile">View on Github</a>
     <img src="./images/rps/playerwins.png" width="600" height: "600">
     <img src="./images/rps/homepage.png" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Reading Cloud Tutorial</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>CSS</li>
+          <li>HTML</li>
+        </ul>
 <div class="product-tile" target="_blank" id="projects">
     <a href="  https://github.com/emilyjspencer/Reading-Cloud-Tutorial"class="project-tile">View on GitHub</a>
     <img src="./images/readingcloud/readingcloudtutorial.png" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Mango Dancewear Landing Page</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>CSS</li>
+          <li>HTML</li>
+        </ul>
   <div class="product-tile" target="_blank" id="projects">
     <a href="https://github.com/emilyjspencer/Dancewear"class="project-tile">View on GitHub</a>
     <img src="./images/mangodancewear/mangodancewear.png" width="600" height: "600">
 </div>
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Finbot</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Jest</li>
+          <li>Enzyme</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>NLTK</li>
+          <li>TFLearn</li>
+          <li>Tensorflow</li>
+          <li>Travis</li>
+          <li>Heroku</li>
+        </ul>
 <div class="product-tile" target="_blank" id="projects">
   <a href="https://github.com/basselalsayed/finbot"class="project-tile">View Frontend on GitHub</a>
   <a href="https://github.com/nikimanoledaki/finbot-api"class="project-tile">View API on GitHub</a>
   <img src="./images/mangodancewear/mangodancewear.png" width="600" height: "600">
+</div>
 </div> 
+<div class="col-xs-6">
 <h2>Global Reads</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>Bootstrap</li>
+          <li>HTML</li>
+          <li>Capybara</li>
+          <li>RSpec</li>
+        </ul>
   <div id="projects" class="project-tile"
        target="blank">
     <a href="https://github.com/emilyjspencer/Global-Reads" class="project-tile" target="_blank" id="Technical_ Documentation_Page">View on GitHub</a>
     <img src="./images/globalreads/signup.png" width="600" height: "600">
     <img src="./images/globalreads/caribbeanreads.png" width="600" height: "600">
+    </div>
+  </div>
     <br>
+    <div class="col-xs-6">
     <h2>Survey Form</h2>
+    <h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/Survey-Form">View on GitHub</a>
     <img src="./images/surveyform/surveyform.png" width="600" height: "600">
 </div> 
+</div>
+<div class="col-xs-6">
 <h2>AceBook - a clone of Facebook</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>Capybara</li>
+          <li>HTML></li>
+          <li>RSpec</li>
+          <li>Bootstrap</li>
+          <li>Travis</li>
+          <li>Heroku</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/acebook-inSANE">View on GitHub</a>
     <img src="./images/acebook/" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Tic Tac Toe</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>HTML</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/">View on GitHub</a>
     <img src="./images/tictactoe" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>News Summary Challenge</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Guardian API</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/">View on GitHub</a>
     <img src="./images/newsummary" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Chitter - a clone of Twitter</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>Ruby</li>
+          <li>SQL</li>
+          <li>Sinatra</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/chitter-challenge">View on GitHub</a>
     <img src="./images/chitter" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>Instagram clone</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>Bootstrap</li>
+          <li>HTML</li>
+          <li>RSpec</li>
+          <li>Capybara</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/Instagram">View on GitHub</a>
     <img src="./images/instagram" width="600" height: "600">
 </div>
+</div>
+<div class="col-xs-6">
 <h2>TBD Mern app</h2>
+<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+        <ul class="tools vertical-list">
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>Node.js</li>
+          <li>React</li>
+        </ul>
 <div id="projects" class="project-tile" target="_blank">
     <a href="https://github.com/emilyjspencer/">View on GitHub</a>
     <img src="./images/mern" width="600" height: "600">
+</div>
+</div>
 </div>
 <br>
 <br>

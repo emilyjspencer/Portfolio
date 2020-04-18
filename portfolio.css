@@ -1,8 +1,15 @@
 
+#headerpic {
+    width: 1200px;
+}
+
+
+
 .topnav {
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(112, 110, 110);
     overflow: hidden;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
   }
   
 
@@ -25,12 +32,21 @@
   }
 
 
+  #about .signature {
+    font-family: 'Brush Script MT', cursive;
+	font-size: 30px;
+	float: right;
+	color: #0d2435;
+	opacity: .9;
+   }
+
 
 @media only screen and (max-width: 500px) {
      
     
   body {
     background-color:#7c7b7c;
+    font-family: 'Dancing Script', cursive;
   }
     
    img {
@@ -51,7 +67,8 @@
 
 
 footer {
-    background: #000;
+    background: rgb(117, 115, 115);
+    font-family: 'Dancing Script', cursive;
   }
   
   .soc-media-ul {
@@ -76,7 +93,104 @@ footer {
       color: $red;
     }
 
-   
+    #container {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        
+    }
+
+    
+    
+#about .info {
+	display: flex;
+	flex-direction: row;
+}
+
+#about h2 {
+	color: #0d2435;
+}
+
+#about h2::after {
+	border-bottom: 2px dashed #918D8D;
+}
+
+#about .info p {
+	line-height: 270%;
+}
+    .signature {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 150%;
+        float: right;
+        color: #0d2435;
+        opacity: .9;
+    }
+
+    .example{
+        position:relative;
+        padding:0;
+        width:300px;
+        display:block;
+        cursor:pointer;
+        overflow:hidden;
+        }
+        .content {
+        opacity:0;
+        font-size: 40px;
+        position:absolute;
+        top:0;
+        left:0;
+        color:#1c87c9;
+        background-color:rgba(200,200,200,0.5);
+        width:300px;
+        height:300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align:center;
+        }
+        .example .content:hover { opacity:1; }      
+        .example .content .text {
+        height:0;
+        opacity:1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+        }
+        .example .content:hover .text {
+        opacity:1;
+        transform: translateY(250px);
+        -webkit-transform: translateY(250px);
+        }
   
 
   
+#skill-set {
+	margin-top: 80px;
+	padding-bottom: 80px;
+}
+
+#skill-set ul {
+	overflow: hidden;
+}
+
+#web-development-skills {
+	background-color: #114190;
+}
+
+
+#automation-skills {
+	background-color: #e11a61;
+}
+
+#misc-skills {
+	background-color: #9d1098;
+}
+
+.skills {
+	color: white;
+}
+
+.skills li {
+	padding: 20px;
+}
